@@ -474,7 +474,7 @@ input, select, textarea { font-family: inherit; }
 /* ===== 战队介绍 ===== */
 .about {
   position: relative;
-  background: url('./assets/about-bg.png') center / contain no-repeat;
+  background: url('./assets/about-bg.png') center 62% / contain no-repeat;
   background-color: #f5f1fc;
 }
 
@@ -626,6 +626,7 @@ input, select, textarea { font-family: inherit; }
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 3px;
+  border-radius: inherit;
   background: linear-gradient(90deg, #7c3aed, #6366f1, #a78bfa);
   opacity: 0;
   transition: opacity 0.3s;
