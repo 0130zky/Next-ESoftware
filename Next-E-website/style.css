@@ -476,16 +476,15 @@ input, select, textarea { font-family: inherit; }
   position: relative;
   background-color: #f5f1fc;
   overflow: hidden;
+  /* 背景图宽 100vw，高 = 100vw/2.33 ≈ 42.9vw；加上顶部留白 160px 与底部 60px */
+  min-height: calc(42.9vw + 220px);
 }
 
 .about-bg {
   position: absolute;
   left: 0; right: 0;
-  bottom: 40px;
+  top: 160px;
   width: 100%;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
   height: auto;
   z-index: 0;
   pointer-events: none;
